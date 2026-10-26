@@ -1,68 +1,145 @@
-# Prerequisites
-*.d
+# Generated files and temporary files
+# -----------------------------------
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
+*~
+*.autosave
 *.tmp
 *.log
 *.bak
+*.orig
+*.rej
 *.swp
+.*.swp
+*.flc
+.#*
+*.*#
 
-# vcpkg
-vcpkg_installed/
+# Operating system files
+# ----------------------
 
-# debug information files
+.DS_Store
+.directory
+Thumbs.db
+
+# C/C++ compiled files
+# --------------------
+
+*.d
+*.o
+*.obj
+*.slo
+*.lo
+*.a
+*.la
+*.lai
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.core
+*.debug
 *.dwo
 
-# test output & cache
+# Precompiled headers
+# -------------------
+
+*.gch
+*.pch
+*_pch.h.cpp
+
+# Generated Qt files
+# ------------------
+
+*.moc
+*.qm
+*.prl
+*.res
+*.rc
+*_resource.rc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+.moc/
+.obj/
+.pch/
+.rcc/
+.uic/
+**/.qmlls.ini
+
+# Qt Creator generated files
+# --------------------------
+
+*.pro.user*
+*.qbs.user*
+CMakeLists.txt.user*
+.qtcreator/
+
+# CMake generated files
+# ---------------------
+
+/build*/
+/Build*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+
+# Visual Studio generated files
+# -----------------------------
+
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# MinGW generated files
+# ---------------------
+
+*.Debug
+*.Release
+
+# VS Code local configuration
+# ----------------------------
+
+.vscode
+.vscode/*
+!.vscode/extensions.json
+
+# Python
+# ------
+
+*.pyc
+__pycache__/
+
+# Test output and caches
+# ----------------------
+
 Testing/
 .cache/
+
+# vcpkg dependencies
+# ------------------
+
+vcpkg_installed/
+
+# Other generated files
+# ---------------------
+
+tags
+core
+!core/
